@@ -1,5 +1,8 @@
 package practical_8;
 import java.util.Scanner;
+/*
+ * This Class is used for EMI calculation
+ * */
 public class EMICalculator {
 
 	 public static void main(String[] args) {
