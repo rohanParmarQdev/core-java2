@@ -1,6 +1,6 @@
 package Practical_17;
 
-public class Cat implements Animal{
+public class Cat1 implements Animal1{
 
 	/*
 	This is Implemented class of Animal
