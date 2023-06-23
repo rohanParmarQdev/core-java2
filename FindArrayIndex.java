@@ -2,12 +2,18 @@ package Practical_19;
 
 public class FindArrayIndex {
 
+	/*
+	  This program finds the index of a specific number in an array.
+	*/
 	public static void main(String[] args) {
-		int arr[] = { 11, 27, 32, 40, 52, 65 };
+		int array[] = { 11, 27, 32, 40, 52, 65 };
 		int index = -1;
 
-		for (int i = 0; i < arr.length; i++) {
-			if(arr[i] == 27) {
+		for (int i = 0; i < array.length; i++) {
+			if(array[i] == 27) {
+				/*
+			 	   If a match is found, store the index and exit the loop 
+				*/
 				index = i;
 				break;
 			}
