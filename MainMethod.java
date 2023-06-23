@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 /*
  * This is the main method for the accessing main files in our system. 
  * */
-public class Main {
+public class MainMethod {
 
 	public static void main(String[] args) {
 		/*
