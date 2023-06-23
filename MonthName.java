@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class MonthName {
 
+	/*
+	  Finding the current month name using switch case. 
+	*/
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -10,10 +14,6 @@ public class MonthName {
 		System.out.println("Enter Month Number: ");
 		int month = sc.nextInt();
 
-		/*
-		  Finding the current month name using switch case. 
-		 */
-		
 		switch(month)
 		{
 			case 1:
