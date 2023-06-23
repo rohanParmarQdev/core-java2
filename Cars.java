@@ -1,9 +1,9 @@
 package Practical_15_MultiLevel_Inheritance;
 
-public class Car extends Vehicle {
+public class Cars extends Vehicles {
 
 	/*
-	 * Intermediate subclass inheriting from Vehicle
+	 * Intermediate subclass inheriting from Vehicles
 	 */
 	void accelerate() {
 		System.out.println("The car accelerates.");

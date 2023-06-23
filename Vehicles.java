@@ -1,6 +1,6 @@
 package Practical_15_MultiLevel_Inheritance;
 
-public class Vehicle {
+public class Vehicles {
 	/*
 	 * Base Class
 	 * */
