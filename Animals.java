@@ -1,6 +1,6 @@
 package Practical_15_Single_Inheritance;
 
-public class Animal {
+public class Animals {
 
 	/*
 	 * Base class
