@@ -1,12 +1,16 @@
 package Practical_18_A;
-
+/*
+ * Created this class for performing Try catch block 
+ * */
 public class TryCatchFinally {
 
 	public static void main(String[] args) {
-		try {
-			int a = 9, b = 0, c;
-			c = a/b;
-			System.out.println(c);
+		
+		try 
+		{
+			int number1 = 9, number2 = 0, result;
+			result = number1/number2;
+			System.out.println(result);
 		} catch(ArithmeticException  e) {
 			System.out.println("Exception Occur");
 		}
@@ -14,4 +18,5 @@ public class TryCatchFinally {
 			System.out.println("This is finally block...");
 		}
 	}
+	
 }
