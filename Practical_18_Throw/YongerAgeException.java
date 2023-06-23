@@ -1,5 +1,7 @@
-package Practical_18_Throw_Throws;
-
+package Practical_18_Throw;
+/*
+ * This is created for custom made exception for voting class
+ * */
 public class YongerAgeException extends RuntimeException{
 
 	YongerAgeException(String msg) {
